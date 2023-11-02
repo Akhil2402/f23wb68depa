@@ -16,7 +16,7 @@ block content
     div(class="container-fluid")
       each snake,index in results
         div(class="row", onclick=`buy(${index})`)
-          div(class="col-sm-2") <br>snake #{index}: #{tiger.snake_color} breed:#{snake.snake_breed} price:#{snake.snake_price}
+          div(class="col-sm-2") <br>snake #{index}: #{snake.snake_color} breed:#{snake.snake_breed} price:#{snake.snake_price}
 
     script.
         function buy(itemNo)
